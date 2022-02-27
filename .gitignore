@@ -1,6 +1,4 @@
 node_modules
-
 dist
-converage
-
-yarn.lock
+coverage
+.vscode

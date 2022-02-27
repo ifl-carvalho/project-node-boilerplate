@@ -1,20 +1,17 @@
 {
   "compilerOptions": {
     "outDir": "dist",
-    "rootDir": "src",
-    "target": "es2021",
-    "sourceMap": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
     "module": "commonjs",
-    "moduleResolution": "node",
+    "target": "es2019",
     "esModuleInterop": true,
+    "sourceMap": true,
+    "rootDirs": ["src", "tests"],
     "baseUrl": "src",
     "paths": {
-      "@/*": ["*"],
-      "@/tests/*": ["../tests/*"]
-    },
-    "strict": true
+      "@/tests/*": ["../tests/*"],
+      "@/*": ["*"]
+    }
   },
-  "include": ["src", "tests"]
+  "include": ["src", "tests"],
+  "exclude": []
 }
